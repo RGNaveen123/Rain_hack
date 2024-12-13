@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1">
+  <title>Aqua Fresh</title>
+  <link rel="stylesheet" type="text/css" href="home.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!---header---->
+    
+    <header>
+        <a href="index.html" class="logo">Aqua Fresh</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Register</a></li>
+        </ul>
+    </header> 
+
+
+
+    <!----login---->
+<section class="home">
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2 style="color:#fff">Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon" style="color: #fff;"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required style="color: #fff;">
+                    <label style="color: #fff;">Email</label>
+                </div>
+                <div class="input-box" >
+                    <span class="icon" style="color: #fff;"><ion-icon name="lock-closed"></ion-icon></ion-icon></span>
+                    <input type="password" required style="color: #fff;">
+                    <label style="color: #fff;">password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label  style="color: #fff;"><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>\
+                <div class="login-register">
+                    <p style="color: #fff;">Dont have an account? <a href="#" class="register-link">
+                        Register
+                    </a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!----link to js---->
+    <script type="text/javascript" src="home.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+
+
+</html>
